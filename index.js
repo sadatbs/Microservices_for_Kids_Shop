@@ -56,11 +56,10 @@ app.post('/rate',(req,res) =>{
         console.log(result.length);
         let total_rating = {"result":result.length};
         
-        res.send( resu);
+        res.send( total_rating);
     })
     
 })
-
 
 
 app.listen(`${port}`, () => {
